@@ -42,13 +42,13 @@ Replace the `$version` with the real version number.
 
 ### Build and run
 
-We'll use Maven to build both projects. Use either terminal or IDE to do so. After that, run the provider first so it can register.
-And then we run the consumer. 
-To try it out, in a browser or using curl:
+We'll use Maven to build both projects. Use either terminal or IDE to do so. After that, run the provider first so it can register.   
+And then we run the consumer.    
+To try it out, in a browser or using curl:   
 `http://localhost:18082/echo-feign/feign`
-This will echo the string `feign` via the feign client.
-And `http://localhost:18082/echo-rest/rest`
-This will echo the string `rest` via the feign client.
+This will echo the string `feign` via the feign client.   
+And `http://localhost:18082/echo-rest/rest`   
+This will echo the string `rest` via the feign client.    
 
 ## Deploy in on Alibaba Cloud
 ### EDAS system
