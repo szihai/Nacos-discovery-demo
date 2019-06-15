@@ -50,5 +50,3 @@ This will echo the string `feign` via the feign client.
 And `http://localhost:18082/echo-rest/rest`   
 This will echo the string `rest` via the feign client.    
 
-## Deploy in on Alibaba Cloud
-### EDAS system
