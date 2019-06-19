@@ -37,6 +37,10 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
             <version>0.9.0.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
